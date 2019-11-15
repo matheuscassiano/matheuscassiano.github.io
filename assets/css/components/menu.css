@@ -6,7 +6,7 @@
 	position: fixed;
 	padding: 1rem;
 	box-shadow: 1px 3px 6px rgba(0,0,0,0.1);
-	background-color: #fff; 
+	background-color: #202023; 
 }
 
 /*mobile*/
@@ -18,16 +18,17 @@
 
 .menu .links{
 	position: absolute;
-	right: .7rem;
+	right: 2rem;
 }
 
 .menu .logo a{
 	color: #e74c3c;
+	font-weight: bold;
 	text-transform: uppercase;	
 }
 
 .menu .links li a{
-	color: #333;
+	color: #aaa;
 }
 
 /*descktop*/
