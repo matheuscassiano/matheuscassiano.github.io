@@ -1,0 +1,8 @@
+/*Imports*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+/*nomes*/
+:root{
+	--roboto:  'Roboto', sans-serif;
+	--titles: 'Bebas Neue', cursive;
+}

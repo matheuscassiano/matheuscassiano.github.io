@@ -1,0 +1,25 @@
+.card{
+	min-width: 90%;
+	max-width: 100%;
+	padding: 1rem;
+	border-radius: 5px;
+	background-color: white;
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.05);
+}
+
+/*local class*/
+.card .card-header{
+	margin: 0 auto;
+	width: 30%;
+}
+
+.card .card-header img{width: 100%;}
+.card-body h3{
+	text-align: center;
+	font-size: 1.58rem;
+}
+.card-body p{
+	padding-top: 1rem; 
+	text-align: justify;
+	font-size: 0.98rem;
+}

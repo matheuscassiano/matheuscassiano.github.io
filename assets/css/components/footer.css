@@ -1,0 +1,20 @@
+.footer{
+	color: white;
+	text-align: center;
+	background-color: #202023;
+}
+
+.footer .container{padding: 1.8rem 0;}
+.footer h3{
+	font-size: 1.5rem;
+	font-weight: bold;
+	}
+.footer .end{
+	padding: 0.75rem;
+	text-align: center;
+	background-color: #050000;
+}
+
+@media(min-width: 768px){
+	.footer{text-align: left}
+}

@@ -1,0 +1,18 @@
+.container{
+	width: 99%;
+	margin: 0 auto;
+}
+
+.row{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2rem;
+}
+[class*="col-"]{padding: 15px;}
+@media(min-width: 768px){
+	.container{width: 90%;}
+	.col-4{width: 33.88%;}
+	.col-6{width: 50%;}
+	.col-12{width: 100%;}
+	.row{flex-direction: row;}
+}
